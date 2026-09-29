@@ -709,7 +709,7 @@ export default function DashboardManager() {
                             >
                               <td className="px-5 py-4">
                                 <Link
-                                  href={`/dashboards/${dashboard.id}`}
+                                  href={`/dashboards/${dashboard.id}?mode=view`}
                                   className="font-medium text-primary hover:underline"
                                 >
                                   {dashboard.name}
